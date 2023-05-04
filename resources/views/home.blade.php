@@ -11,7 +11,7 @@
 			<div class="col-lg-2 col-md-3 col-sm-4 col-6">
 				<div class="card pt-2 course-card h-100">
 					<div class="card-body p-1 ">
-						<img src="public/images/course/1639911906.jpg" class="mx-auto mb-3 rounded-circle d-flex" alt="" style="height: 100px; width:100px">
+						<img src="{{asset('images/course/1639911906.jpg')}}" class="mx-auto mb-3 rounded-circle d-flex" alt="" style="height: 100px; width:100px">
 						<div class="border-top card-body border-1 course-card-body">
 							<h5 class="h6 text-center">Python With Data Structure</h5>
 						</div>
@@ -24,7 +24,7 @@
 			<div class="col-lg-2 col-md-3 col-sm-4 col-6">
 				<div class="card pt-2 course-card h-100">
 					<div class="card-body p-1 ">
-						<img src="public/images/course/1639915439.jpg" class="mx-auto mb-3 rounded-circle d-flex" alt="" style="height: 100px; width:100px">
+						<img src="{{asset('images/course/1639915439.jpg')}}" class="mx-auto mb-3 rounded-circle d-flex" alt="" style="height: 100px; width:100px">
 						<div class="border-top card-body border-1 course-card-body">
 							<h5 class="h6 text-center">Web Development with Django &amp; Sqlite</h5>
 						</div>
@@ -37,7 +37,7 @@
 			<div class="col-lg-2 col-md-3 col-sm-4 col-6">
 				<div class="card pt-2 course-card h-100">
 					<div class="card-body p-1 ">
-						<img src="public/images/course/1639916039.jpg" class="mx-auto mb-3 rounded-circle d-flex" alt="" style="height: 100px; width:100px">
+						<img src="{{asset('images/course/1639916039.jpg')}}" class="mx-auto mb-3 rounded-circle d-flex" alt="" style="height: 100px; width:100px">
 						<div class="border-top card-body border-1 course-card-body">
 							<h5 class="h6 text-center">MangoDB, ExpressJS, ReactJS, Nodejs full stack Development</h5>
 						</div>
@@ -50,7 +50,7 @@
 			<div class="col-lg-2 col-md-3 col-sm-4 col-6">
 				<div class="card pt-2 course-card h-100">
 					<div class="card-body p-1 ">
-						<img src="public/images/course/1639916450.jpg" class="mx-auto mb-3 rounded-circle d-flex" alt="" style="height: 100px; width:100px">
+						<img src="{{asset('images/course/1639916450.jpg')}}" class="mx-auto mb-3 rounded-circle d-flex" alt="" style="height: 100px; width:100px">
 						<div class="border-top card-body border-1 course-card-body">
 							<h5 class="h6 text-center">Laravel Web Development with Php</h5>
 						</div>
@@ -63,7 +63,7 @@
 			<div class="col-lg-2 col-md-3 col-sm-4 col-6">
 				<div class="card pt-2 course-card h-100">
 					<div class="card-body p-1 ">
-						<img src="public/images/course/1639916867.jpg" class="mx-auto mb-3 rounded-circle d-flex" alt="" style="height: 100px; width:100px">
+						<img src="{{asset('images/course/1639916867.jpg')}}" class="mx-auto mb-3 rounded-circle d-flex" alt="" style="height: 100px; width:100px">
 						<div class="border-top card-body border-1 course-card-body">
 							<h5 class="h6 text-center">ReactJs with Postman API</h5>
 						</div>
@@ -76,7 +76,7 @@
 			<div class="col-lg-2 col-md-3 col-sm-4 col-6">
 				<div class="card pt-2 course-card h-100">
 					<div class="card-body p-1 ">
-						<img src="public/images/course/1654318489.png" class="mx-auto mb-3 rounded-circle d-flex" alt="" style="height: 100px; width:100px">
+						<img src="{{asset('images/course/1654318489.png')}}" class="mx-auto mb-3 rounded-circle d-flex" alt="" style="height: 100px; width:100px">
 						<div class="border-top card-body border-1 course-card-body">
 							<h5 class="h6 text-center">Android Development with React Native</h5>
 						</div>
