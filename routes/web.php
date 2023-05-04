@@ -20,6 +20,7 @@ Route::prefix("teacher")->group(function(){
         
         Route::middleware("auth:teacher")->group(function(){
             Route::get('/', 'index')->name('teacher.panel');
+            Route::get('/logout','teacherlogout')->name('teacher.logout');
 
 
         });
