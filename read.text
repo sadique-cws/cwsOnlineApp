@@ -1,0 +1,17 @@
+category
+1. id, cat_title
+
+course
+1. id, title, instructor, duration, description, lang, mode, status, fees, discount_fees, cover, category (fk),sort_description
+
+teacher
+1. id, name, email, contact, password
+
+
+
+Controllers
+1. HomeController 
+2. StudentController - d
+3. TeacherController - d 
+4. categoryController
+5. CourseController
