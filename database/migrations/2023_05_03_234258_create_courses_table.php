@@ -17,7 +17,7 @@ return new class extends Migration
             $table->foreignId("categories_id")->constrained()->onDelete("cascade");
             $table->string("instructor");
             $table->string("duration");
-            $table->blob("description");
+            $table->binary("description");
             $table->string("sort_description");
             $table->string("lang");
             $table->string("mode");

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Teacher;
+use Auth;
 use Illuminate\Http\Request;
 
 class TeacherController extends Controller
@@ -12,7 +13,28 @@ class TeacherController extends Controller
      */
     public function index()
     {
-        //
+         return view("teacher.dashboard");
+    }
+
+    public function teacherlogin(Request $req)
+    {
+        if ($req->method() == "POST") {
+            $data = $req->only(["email", "password"]);
+
+            if (Auth::guard("teacher")->attempt($data)) { 
+                
+                return redirect()->route("teacher.panel");
+            } else {
+                return redirect()->back()->with("alert","Please enter valid email or password");
+            }
+        }
+        return view('teacher.teacherlogin');
+    }
+
+    public function teacherlogout(Request $req)
+    {
+        Auth::guard("teacher")->logout();
+        return redirect()->back();
     }
 
     /**
